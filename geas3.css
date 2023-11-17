@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Italianno&family=Kenia&family=Libre+Baskerville&display=swap');
 :root{
+    --back-img:url(../somthingxd);
     --back-c:radial-gradient(whitesmoke,rgb(82, 82, 82));;
     --broder:2px solid black;
     --bf:2rem;
@@ -17,7 +18,7 @@
 }
 body{
     background-color:var(--back-c);
-    background-image:var(--back-c);
+    background-image:var(--back-c); /*here i want just to be fast you can add the background img with --back-img:url(../somthingxd) or use a back img that sps for the body; */
     position: relative;
     margin: 0;
 }
@@ -64,8 +65,9 @@ footer{
 
 }
 .pcbox{
+    
     --column-sit-display:grid;
-    background-image: var(--column-color);
+    background-image:--back-img:url(../somthingxd); /*nothing i forget what i was going to say here lole*/
     background-color: aquamarine;
     border: var(--broder);
     width: var(--column-sit-width);
@@ -101,6 +103,7 @@ footer{
 }
 @media screen and (min-width:375px) {
     :root{
+        --back-img:url(../somthing-new-xd);/*here you can just change it to be "whatever you want 💅" */
         --back-c: radial-gradient( rgb(255, 140, 0),rgba(255, 0, 0, 0.616));
         --broder:5px solid rgb(255, 255, 255);
         --bf:2.5rem;
@@ -119,6 +122,7 @@ footer{
 }
 @media  screen and (min-width:750px) {
     :root{
+        --back-img:url(../somthing-new-xd);/*here you can just change it to be "whatever you want 💅" */
         --back-c:radial-gradient(rgb(59, 49, 49),rgb(224, 192, 192));;
         --broder:2px solid rgb(12, 0, 63);
         --bf:4rem;
@@ -141,6 +145,7 @@ footer{
 }
 @media  screen and (min-width:1000px) {
     :root{
+        --back-img:url(../somthing-new-xd);/*here you can just change it to be "whatever you want 💅" */
         --back-c:radial-gradient(rgb(36, 197, 206),rgb(137, 166, 241));;
         --broder:2px solid rgb(12, 0, 63);
         --bf:4rem;
@@ -163,6 +168,7 @@ footer{
 }
 @media  screen and (min-width:1400px) {
     :root{
+        --back-img:url(../somthing-new-xd);/*here you can just change it to be "whatever you want 💅" */
         --back-c:radial-gradient(rgb(73, 88, 89),rgb(96, 109, 143));;
         --broder:2px solid rgb(12, 0, 63);
         --bf:4rem;
